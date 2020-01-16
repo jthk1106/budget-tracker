@@ -8,6 +8,7 @@ import store from './rootStore';
 // eslint-disable-next-line no-undef
 render(
   <Provider store={ store }>
-    <App />, document.getElementById('root')
-  </Provider>
+    <App />
+  </Provider>,
+  document.getElementById('root')
 );
