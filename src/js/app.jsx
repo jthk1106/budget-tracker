@@ -1,4 +1,11 @@
+/* eslint-disable jsx-a11y/heading-has-content */
+/* eslint-disable react/jsx-indent */
+/* eslint-disable linebreak-style */
 import React from 'react';
+
+import IncomeEntries from './components/IncomeEntries';
+import ExpenseEntries from './components/ExpenseEntries';
+import Summary from './components/Summary';
 
 export default class App extends React.Component {
   render() {
